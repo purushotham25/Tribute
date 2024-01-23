@@ -1,0 +1,64 @@
+ body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url(./images\ \(1\).jpeg);
+            background-size: cover;
+            background-image: image(100%);
+            background-position: 50%;
+        }
+
+        header {
+            background-color: #999797;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            text-shadow: 5px 6px 10px black;  
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5em 1em;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        #tribute-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        #tribute-info {
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 0.5em 1em;
+            background-color: #333;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
